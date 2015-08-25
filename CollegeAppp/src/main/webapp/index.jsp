@@ -4,6 +4,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Welcome to JEE  </h1>
+<h1>Welcome to JEE  New</h1>
 </body>
 </html>
