@@ -7,9 +7,19 @@
 </head>
 <body>
 	<form:form action="validateCredentials" modelAttribute="user" method="POST">
-		UserName: <form:input path="username" id="username"/>
-		Password: <form:password path="password" id="password"/>
-		<input type="submit" value="Submit" class="btn btn-success form-control"/>
+		<table>
+			<tr>
+				<td>UserName:</td> 
+				<td><form:input path="username" id="username"/></td>
+			</tr>
+			<tr>
+				<td>Password: </td>
+				<td><form:password path="password" id="password"/></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Submit" class="btn btn-success form-control"/></td>
+			</tr>
+		</table>
 		
 	</form:form>
 </body>
