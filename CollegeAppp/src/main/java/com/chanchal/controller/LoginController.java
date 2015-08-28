@@ -22,6 +22,30 @@ public class LoginController{
         return "services";
     }
 	
+	@RequestMapping(value="/goToAboutUs", method=RequestMethod.GET)
+    public String openAboutUs(ModelMap model) {
+        model.addAttribute("user", new User());
+        return "aboutus";
+    }
+	
+	@RequestMapping(value="/goToDishes", method=RequestMethod.GET)
+    public String openDishes(ModelMap model) {
+        model.addAttribute("user", new User());
+        return "dishes";
+    }
+	
+	@RequestMapping(value="/goToChef", method=RequestMethod.GET)
+    public String openChef(ModelMap model) {
+        model.addAttribute("user", new User());
+        return "chef";
+    }
+	
+	@RequestMapping(value="/goToContactUs", method=RequestMethod.GET)
+    public String openContactUs(ModelMap model) {
+        model.addAttribute("user", new User());
+        return "contactus";
+    }
+	
 	@RequestMapping(value="/default", method=RequestMethod.GET)
     public String openDefaultPage(ModelMap model) {
         model.addAttribute("user", new User());

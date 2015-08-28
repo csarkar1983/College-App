@@ -1,6 +1,6 @@
 
 
-window.google = window.google || {};
+/*window.google = window.google || {};
 google.maps = google.maps || {};
 (function() {
   
@@ -19,4 +19,45 @@ google.maps = google.maps || {};
   };
   var loadScriptTime = (new Date).getTime();
   getScript("http://maps.gstatic.com/maps-api-v3/api/js/19/4/main.js");
-})();
+})();*/
+
+
+
+    /*var map = null;
+    var geocoder = null;
+
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(new GLatLng(37.4419, -122.1419), 1);
+        map.setUIToDefault();
+        geocoder = new GClientGeocoder();
+      }
+    }
+
+    function showAddress(address) {
+      if (geocoder) {
+        geocoder.getLatLng(
+          address,
+          function(point) {
+            if (!point) {
+              alert(address + " not found");
+            } else {
+              map.setCenter(point, 15);
+              var marker = new GMarker(point, {draggable: true});
+              map.addOverlay(marker);
+              GEvent.addListener(marker, "dragend", function() {
+                marker.openInfoWindowHtml(marker.getLatLng().toUrlValue(6));
+              });
+              GEvent.addListener(marker, "click", function() {
+                marker.openInfoWindowHtml(marker.getLatLng().toUrlValue(6));
+              });
+	      GEvent.trigger(marker, "click");
+            }
+          }
+        );
+      }
+    }*/
+
+
+

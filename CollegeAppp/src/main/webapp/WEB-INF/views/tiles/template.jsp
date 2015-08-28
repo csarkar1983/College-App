@@ -11,16 +11,12 @@
 <head>
 	<tiles:insertAttribute name="header" />
 	<jsp:include page="resource-include.jsp" />
+	<script src="http://maps.google.com/maps/api/js?key=AIzaSyDd7aeHUdeBB7Budvp8DDPjYQ5GNNrKgic&sensor=false"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script type="text/javascript">
-	    function doCallMenu(form,action) {
-	    	document.getElementById('menu-form').action=action;
-	    	document.getElementById('menu-form').submit();
-	    }
-	</script>
+	<script src="./resources/js/bpr-application.js" type="text/javascript"></script> 
 </head>
 
-<body>
+<body onload="GetMap();">
 <header class="header">
   <div class="container">
     <tiles:insertAttribute name="menu" />

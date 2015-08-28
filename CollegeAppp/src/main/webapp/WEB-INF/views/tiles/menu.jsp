@@ -9,10 +9,10 @@
         <ul class="nav navbar-nav" id="mainNav">
           <li class="active" id="firstLink"><a href="#" class="scroll-link" onclick="doCallMenu(this,'home')">Home</a></li>
           <li><a href="#" class="scroll-link" onclick="doCallMenu(this,'goToServices')">Menu</a></li>
-          <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
-          <li><a href="#work" class="scroll-link">Dishes</a></li>
-          <li><a href="#team" class="scroll-link">Chef</a></li>
-          <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
+          <li><a href="#" class="scroll-link" onclick="doCallMenu(this,'goToAboutUs')">About Us</a></li>
+          <li><a href="#" class="scroll-link" onclick="doCallMenu(this,'goToDishes')">Dishes</a></li>
+          <li><a href="#" class="scroll-link" onclick="doCallMenu(this,'goToChef')">Chef</a></li>
+          <li><a href="#" class="scroll-link" onclick="doCallMenu(this,'goToContactUs')">Contact Us</a></li>
         </ul>
         </form>
       </div>

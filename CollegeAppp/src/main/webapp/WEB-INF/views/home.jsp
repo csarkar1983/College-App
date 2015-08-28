@@ -6,7 +6,7 @@
  
  
         <div class="body">
-            <section id="home">
+            <section id="home"> 
 			  <div class="banner-container"> 
 			  <!-- Slider -->
 			        <div id="main-slider" class="flexslider">

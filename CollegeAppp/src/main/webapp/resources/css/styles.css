@@ -460,7 +460,7 @@ border-bottom: 10px solid #F39D17;
 .darkBg .fa {
 	color: #F39D17;
 }
-#map {
+map {
 display: block;
 height: 486px;
 width: 100%;
